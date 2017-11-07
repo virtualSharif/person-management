@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: person-management
+
+server:
+  port: 8888
