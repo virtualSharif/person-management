@@ -33,7 +33,7 @@ Parent, child, favourite meal and house relationship management with using Java,
 
     Once your docker image is successfully created please run the below command to run the application
 
-        docker run -p 8080:8080 -t spring-app/person
+        docker run -p 8888:8888 -t spring-boot-app/person
 
     ------------------------------------------------------------------------------------------------------------------------
     #### Step 2. Checking the running project
@@ -54,7 +54,7 @@ Parent, child, favourite meal and house relationship management with using Java,
 
     To check, the REST apis of web application. Open browser and go to below url :
 
-    	 http://localhost:8888 or  http://localhost:8080/swagger or http://localhost:8080/swagger-ui.html
+    	 http://localhost:8888 or  http://localhost:8888/swagger or http://localhost:8888/swagger-ui.html
 
 ------------------------------------------------------------------------------------------------------------------------
 ## Project Modules :
