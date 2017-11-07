@@ -5,7 +5,8 @@ Parent, child, favourite meal and house relationship management with using Java,
 ------------------------------------------------------------------------------------------------------------------------
 ## Steps to run the project:
 
-	#### Step 1.
+	#### Step 1. Build the project and run the project
+
     ##### a. Using Maven (if java is installed on the system):
     You must to have 'Java 8' installed on your machine :
     If java is not installed, use  https://www.java.com/en/download/help/download_options.xml to install.
@@ -35,9 +36,11 @@ Parent, child, favourite meal and house relationship management with using Java,
         docker run -p 8080:8080 -t spring-app/person
 
     ------------------------------------------------------------------------------------------------------------------------
-    #### Step 2. to check whether REST APIs of application is working or not. Open browser and go to below url:
+    #### Step 2. Checking the running project
 
-    	http://localhost:8080/api/v1/hello
+    To check whether REST APIs of application is working or not. Open browser and go to below url:
+
+    	http://localhost:8888/api/v1/hello
 
     Output:
     You will get below text as response.
@@ -47,7 +50,9 @@ Parent, child, favourite meal and house relationship management with using Java,
     Hurray !
     Application is ready to use.
     ------------------------------------------------------------------------------------------------------------------------
-    #### Step 3 : To check, the REST apis of web application. Open browser and go to below url :
+    #### Step 3 : REST documentation
+
+    To check, the REST apis of web application. Open browser and go to below url :
 
     	 http://localhost:8888 or  http://localhost:8080/swagger or http://localhost:8080/swagger-ui.html
 
