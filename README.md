@@ -1,5 +1,14 @@
 # person-management
-Parent, child, favourite meal and house relationship management with using Java, Spring, Docker, Scheduler, H2 in memory database
+
+#### Description 
+Parent, child, favourite meal and house relationship management
+
+#### Technology Stack
+Spring Boot Application,
+Java 8,
+H2 in memory database (SQL),
+RESTful WebServices, Spring scheduling,
+Docker container integrated
 
     Hours took to build : Approximately 6 hours.
 ------------------------------------------------------------------------------------------------------------------------
@@ -35,7 +44,7 @@ Parent, child, favourite meal and house relationship management with using Java,
 
         docker run -p 8888:8888 -t spring-boot-app/person
 
-    ------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 #### Step 2. Checking the running project
 
     To check whether REST APIs of application is working or not. Open browser and go to below url:
@@ -49,7 +58,8 @@ Parent, child, favourite meal and house relationship management with using Java,
 
     Hurray !
     Application is ready to use.
-    ------------------------------------------------------------------------------------------------------------------------
+    
+------------------------------------------------------------------------------------------------------------------------
 #### Step 3 : REST documentation
 
     To check, the REST apis of web application. Open browser and go to below url :
