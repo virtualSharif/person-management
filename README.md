@@ -5,9 +5,9 @@ Parent, child, favourite meal and house relationship management with using Java,
 ------------------------------------------------------------------------------------------------------------------------
 ## Steps to run the project:
 
-	#### Step 1. Build the project and run the project
+#### Step 1. Build the project and run the project
 
-    ##### a. Using Maven (if java is installed on the system):
+  ##### a. Using Maven (if java is installed on the system):
     You must to have 'Java 8' installed on your machine :
     If java is not installed, use  https://www.java.com/en/download/help/download_options.xml to install.
 
@@ -24,9 +24,9 @@ Parent, child, favourite meal and house relationship management with using Java,
         2017-11-07 01:41:36.717  INFO 7774 --- [           main] c.w.p.scheduler.ParentSummaryScheduler   : Startup data is populated into in memory database
 
 
-    #### OR
+#### OR
 
-    ##### b. Using Docker and Maven :
+   ##### b. Using Docker and Maven :
     You don't need to install java or any other dependency
 
          mvn clean install dockerfile:build
@@ -36,7 +36,7 @@ Parent, child, favourite meal and house relationship management with using Java,
         docker run -p 8888:8888 -t spring-boot-app/person
 
     ------------------------------------------------------------------------------------------------------------------------
-    #### Step 2. Checking the running project
+#### Step 2. Checking the running project
 
     To check whether REST APIs of application is working or not. Open browser and go to below url:
 
@@ -50,7 +50,7 @@ Parent, child, favourite meal and house relationship management with using Java,
     Hurray !
     Application is ready to use.
     ------------------------------------------------------------------------------------------------------------------------
-    #### Step 3 : REST documentation
+#### Step 3 : REST documentation
 
     To check, the REST apis of web application. Open browser and go to below url :
 
